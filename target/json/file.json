@@ -1,0 +1,112 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-10T14:39:01.626Z",
+        "line": 3,
+        "name": "Login to WordPress with Valid Credentials",
+        "description": "",
+        "id": "login-to-wordpress;login-to-wordpress-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6268385279,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launch Firefox Browser",
+            "match": {
+              "location": "loginSteps.user_Launch_Firefox_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 204215788,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Enters username as \"myPractice123\" and pwd as \"Rhj18FoALxAPLe8i\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"myPractice123\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"Rhj18FoALxAPLe8i\"",
+                  "offset": 51
+                }
+              ],
+              "location": "loginSteps.user_Enters_username_as_and_pwd_as(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4116321729,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Clicks on Submit Button",
+            "match": {
+              "location": "loginSteps.user_Clicks_on_Submit_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6625050,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Page Title Should be \"Blog Tool, Publishing Platform, and CMS \u0026mdash; WordPress.org\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Blog Tool, Publishing Platform, and CMS \u0026mdash; WordPress.org\"",
+                  "offset": 21
+                }
+              ],
+              "location": "loginSteps.page_Title_Should_be(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 814983273,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Hover over Support and Print All Its Items",
+            "match": {
+              "location": "loginSteps.user_Hover_over_Support_and_Print_All_Its_Items()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3969240425,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Close Browser",
+            "match": {
+              "location": "loginSteps.user_Close_Browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login to WordPress",
+    "description": "",
+    "id": "login-to-wordpress",
+    "keyword": "Feature",
+    "uri": "file:Feature/myFeature.feature",
+    "tags": []
+  }
+]
